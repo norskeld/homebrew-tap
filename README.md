@@ -10,6 +10,10 @@ Firstly, tap this repository:
 brew tap norskeld/tap
 ```
 
+> **Note**
+>
+> Remember to check if your **Xcode** is up-to-date (see the output of `brew config` and `brew doctor`), because if not, you may have problems installing formulae (and other software/tools as well).
+
 After that you can install formulae.
 
 ## Usage
