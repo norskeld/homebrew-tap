@@ -16,7 +16,7 @@ After that you can install formulae.
 
 > **Note**
 >
-> To avoid problems, use fully-qualified names, e.g. `brew install norskeld/tap/<formula>`. Otherwise you can install something else from `homebrew/core` tap, which has the priority when homebrew looks up for a formula to install.
+> To avoid problems, use fully-qualified names, e.g. `norskeld/tap/<formula>`. Otherwise you can install something else from `homebrew/core` tap, which has the priority when homebrew looks up for a formula to install.
 
 ```bash
 # Fine:
