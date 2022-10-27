@@ -2,11 +2,24 @@
 
 Homebrew formulae for my projects.
 
+## Available formulae
+
+| Formula    | Description                                                |
+| ---------- | ---------------------------------------------------------- |
+| [diceware] | Rust crate and CLI for generating Diceware passphrases.    |
+| [rsx]      | Micro CLI for interactive execution of npm & yarn scripts. |
+
+You can also check available formulae using the following snippet (although it requires [jq]):
+
+```shell
+brew tap-info norskeld/tap --json | jq -r '.[]|.formula_names[]'
+```
+
 ## Installation
 
 Firstly, tap this repository:
 
-```bash
+```shell
 brew tap norskeld/tap
 ```
 
@@ -29,3 +42,9 @@ brew install <formula>
 # Better (fully-qualified name):
 brew install norskeld/tap/<formula>
 ```
+
+<!-- Links. -->
+
+[diceware]: https://github.com/norskeld/diceware
+[rsx]: https://github.com/norskeld/rsx
+[jq]: https://github.com/stedolan/jq
